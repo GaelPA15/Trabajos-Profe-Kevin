@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Videojuegos</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Videojuegos</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Juegos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Comunidad</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h1>Los mejores juegos de este 2024 y mas descargados</h1>
+      <p>
+        Encuentra información sobre los mejores jeugos actualmente y totalmente
+        gratuitos para divertirte y juegos multijugador
+      </p>
+    </div>
+
+    <!-- Sección de Galería de Videojuegos -->
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <img
+              src="./assets/images/cyberpunk.jpg"
+              class="card-img-top"
+              alt="Juego 1"
+              onclick="mostrarDescripcion('Juego 1', 'Descripción del Juego 1.')"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cyberpunk</h5>
+              <p class="card-text">
+                "Cyberpunk 2077" es un juego de acción y rol en un mundo
+                futurista llamado Night City, donde controlas a V, un mercenario
+                en busca de fama y fortuna en un entorno lleno de tecnología
+                avanzada, conflictos de poder y decisiones morales impactantes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Agrega más tarjetas de juegos aquí -->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container text-center">
+        <span class="text-muted">© GaelPA Entertaiment. - 2024</span>
+      </div>
+    </footer>
+    <!-- Enlace a Bootstrap JS y dependencias de jQuery y Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
